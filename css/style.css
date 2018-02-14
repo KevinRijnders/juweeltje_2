@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('../img/bg-banner03.jpg') no-repeat fixed;
+    background: url('../img/panorama.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
@@ -58,27 +58,27 @@ Responsive media queries
     font-family: 'Satisfy', cursive;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+    color: #FFF;
     outline: none;
 }
 .navbar-default .navbar-nav > li > a{
 	font-size: 14px;
 	font-weight: 400;
-	color: #fff;
+	color: #FFF;
     outline: none;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #fffde0;
+    color: #FFF;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fffde0;
+    color: #FFF;
     background-color: transparent;
 }
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(50,60,70, 0.9);
+    background: #9CBFC6;
 }
 
 .bg-color{
@@ -193,7 +193,7 @@ blockquote {
 }
 #contact {
     width: 100%;
-    background-color: RGBA(8, 7, 7, 0.92);
+    background-color: #9CBFC6;
 }
 
 #contact .btn-primary {
@@ -371,5 +371,18 @@ Addition Rijnders
 .contactway {
     margin: 8px;
     border-radius: 2px;
+}
 
+.airbnb {
+    width: 25px;
+    height: 25px;
+}
+
+.btnreserveer {
+    background-color: #9CBFC6;
+    color: #646464;
+    margin-left: 40px;
+    padding: 10px 20px ;
+    font-size:  40px;
+    border-radius: 8px;
 }
