@@ -370,6 +370,7 @@ Responsive media queries
 .contactway {
     margin: 8px;
     border-radius: 2px;
+    background-color: rgba(0,0,0,0.8)!important;
 }
 
 .airbnb {
@@ -378,10 +379,15 @@ Responsive media queries
 }
 
 .btnreserveer {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
     color: #9CBFC6;
     margin-left: 40px;
     padding: 10px 20px ;
     font-size:  40px;
-    border-radius: 8px;
+    border-radius: 4px;
+}
+
+#contact {
+    background-image: url('http://members.ziggo.nl/p.ekelschot/Foto-Site/images/PANORAMAWAZ1.jpg');
+    background-size: cover;
 }
