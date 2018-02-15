@@ -58,7 +58,7 @@ Responsive media queries
     font-family: 'Satisfy', cursive;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #FFF;
+    color: #9CBFC6;
     outline: none;
 }
 .navbar-default .navbar-nav > li > a{
@@ -78,7 +78,7 @@ Responsive media queries
 
 .top-nav-collapse {
     padding: 0; 
-    background: #9CBFC6;
+    background: RGBA(0, 0, 0, 0.3);
 }
 
 .bg-color{
@@ -88,7 +88,7 @@ Responsive media queries
 .navbar-border{
 }
 .banner-text{
-	border-left: 5px solid #BE2525;
+	border-left: 5px solid #9CBFC6;
 	padding: 15px 40px;
 	color: #fff;
 	margin-top: 170px;
@@ -139,6 +139,7 @@ Responsive media queries
 }
 .about-text p{
 	color: #444;
+    margin-top: 20px;
 }
 .abt-list li{
 	padding: 5px 0px;
@@ -363,9 +364,7 @@ Responsive media queries
 
 
 /***********************************
-************************************
-Addition Rijnders
-************************************
+           TOEVOEGINGEN
 ***********************************/
 
 .contactway {
@@ -379,8 +378,8 @@ Addition Rijnders
 }
 
 .btnreserveer {
-    background-color: #9CBFC6;
-    color: #646464;
+    background-color: rgba(0,0,0,0.8);
+    color: #9CBFC6;
     margin-left: 40px;
     padding: 10px 20px ;
     font-size:  40px;
