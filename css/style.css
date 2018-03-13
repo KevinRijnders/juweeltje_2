@@ -77,7 +77,7 @@ Responsive media queries
 }
 
 .top-nav-collapse {
-    padding: 0; 
+    padding: 0;
     background: RGBA(0, 0, 0, 0.3);
 }
 
@@ -300,7 +300,7 @@ footer {
 		margin-right: 15px;
 }
 .type-underline, .type-underline:hover{
-	color: #767676; 
+	color: #767676;
 }
 .footer__lower {
     margin-top: 3.25em;
@@ -334,7 +334,7 @@ Responsive media queries
 	}
 }
 @media (min-width: 100px) and (max-width: 550px) {
-	
+
 	.navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -390,4 +390,8 @@ Responsive media queries
 #contact {
     background-image: url('http://members.ziggo.nl/p.ekelschot/Foto-Site/images/PANORAMAWAZ1.jpg');
     background-size: cover;
+}
+
+.surtitle {
+	font-size: 25px!important;
 }
